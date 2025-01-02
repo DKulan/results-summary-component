@@ -37,3 +37,4 @@ Users should be able to:
 
 - [React](https://reactjs.org/)
 - [Vite](https://vite.dev/)
+- [Tailwind](https://tailwindcss.com/)
