@@ -35,7 +35,7 @@ export function ResultField({ title, score }) {
       className={`flex justify-between p-2 rounded-lg bg-opacity-5 ${CATEGORY[lowercaseTitle].backgroundColor}`}
     >
       <div className="flex gap-2">
-        <img width="24" height="24" src={CATEGORY[lowercaseTitle].icon} />
+        <img width="24" height="24" alt={`${title} icon`} src={CATEGORY[lowercaseTitle].icon} />
         <p className={CATEGORY[lowercaseTitle].textColor}>{title}</p>
       </div>
       <p>
