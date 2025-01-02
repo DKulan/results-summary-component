@@ -30,7 +30,7 @@ export function ResultsSummary() {
         <div className="p-6 xl:w-72">
           <p className="text-dark-gray-blue font-bold">Summary</p>
           <div className="mt-6 gap-4 flex flex-col">
-            {resultData.map(data => <ResultField key={data.category} title={data.category} score={data.score} icon={data.icon} />)}
+            {resultData.map(data => <ResultField key={data.category} title={data.category} score={data.score} />)}
           </div>
           <Button
             className="mt-6"
